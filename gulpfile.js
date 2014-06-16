@@ -2,7 +2,7 @@ var gulp           = require('gulp'),
     connect        = require('gulp-connect'),
     csso           = require('gulp-csso'),
     sass           = require('gulp-sass'),
-    rename         = require("gulp-rename");
+    rename         = require('gulp-rename');
 
 // Styles.
 gulp.task('styles', function() {
@@ -12,14 +12,15 @@ gulp.task('styles', function() {
         includePaths: ['src/styles'],
         errLogToConsole: true
       } ) )
+    .pipe(csso())
     .pipe(rename('styles/styles.min.css'))
     .pipe(gulp.dest('./dist'));
 });
 
 // Images
 gulp.task('images', function() {
-  return gulp.src('src/img/**/*')
-    .pipe(gulp.dest('dist/img/'));
+  return gulp.src('src/images/**/*')
+    .pipe(gulp.dest('dist/images/'));
 });
 
 // Templates
