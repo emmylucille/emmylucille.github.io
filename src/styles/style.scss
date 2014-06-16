@@ -1,0 +1,54 @@
+  header {
+  text-align: center;
+  }
+
+  h1, h2{
+  color: white;
+  font-family: Arial, sans-serif;
+  margin-bottom: 0;
+  }
+
+  em {
+  color: pink;
+  text-transform: uppercase;
+  }
+
+  a {
+  color: lightblue;
+  }
+
+  p {
+  color: white;
+  border: solid lightblue;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: lightpink;
+  }
+
+  article {
+  max-width: 500px;
+  }
+
+  span.pop {
+  color: lightblue;
+  font-weight: bold;
+  }
+
+  span.slash {
+  text-decoration: line-through;
+  }
+
+  img {
+  border: solid pink 4px;
+  border-radius: 100%;
+  }
+
+  li {
+  list-style: none;
+  display: inline;
+  margin: 10px;
+  }
+
+  body {
+  background-image: radial-gradient(circle at bottom left, pink, #f06d06);
+  }

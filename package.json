@@ -1,0 +1,17 @@
+{
+  "name": "my-website",
+  "version": "0.0.1",
+  "description": "portfolio",
+  "author": {
+    "name": "emily bond",
+    "email": "emilymbond@yahoo.com",
+    "url": "https://github.com/emmylucille/emmylucille.github.io.git"
+  },
+  "devDependencies": {
+    "gulp": "~3.8.0",
+    "gulp-connect": "~2.0.5",
+    "gulp-csso": "~0.2.8",
+    "gulp-rename": "~1.2.0",
+    "gulp-sass": "~0.4.1"
+  }
+}
